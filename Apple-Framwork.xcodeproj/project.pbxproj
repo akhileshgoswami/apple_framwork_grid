@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1831B2C42C59685D00683342 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831B2C32C59685D00683342 /* SafariView.swift */; };
+		1831B2C62C596FF300683342 /* XmarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831B2C52C596FF300683342 /* XmarkButton.swift */; };
 		1899AF592C57FEEF00B18CF5 /* Apple_FramworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1899AF582C57FEEF00B18CF5 /* Apple_FramworkApp.swift */; };
-		1899AF5B2C57FEEF00B18CF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1899AF5A2C57FEEF00B18CF5 /* ContentView.swift */; };
 		1899AF5D2C57FEF000B18CF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1899AF5C2C57FEF000B18CF5 /* Assets.xcassets */; };
 		1899AF602C57FEF000B18CF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1899AF5F2C57FEF000B18CF5 /* Preview Assets.xcassets */; };
+		1899AF672C57FF6100B18CF5 /* Framwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1899AF662C57FF6100B18CF5 /* Framwork.swift */; };
+		1899AF692C58027000B18CF5 /* FramworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1899AF682C58027000B18CF5 /* FramworkGridView.swift */; };
+		1899AF6B2C58106700B18CF5 /* FramworkDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1899AF6A2C58106700B18CF5 /* FramworkDetailsView.swift */; };
+		1899AF6D2C581D8C00B18CF5 /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1899AF6C2C581D8C00B18CF5 /* AFButton.swift */; };
+		1899AF6F2C5822A300B18CF5 /* FramworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1899AF6E2C5822A300B18CF5 /* FramworkViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1831B2C32C59685D00683342 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		1831B2C52C596FF300683342 /* XmarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XmarkButton.swift; sourceTree = "<group>"; };
 		1899AF552C57FEEF00B18CF5 /* Apple-Framwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple-Framwork.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1899AF582C57FEEF00B18CF5 /* Apple_FramworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FramworkApp.swift; sourceTree = "<group>"; };
-		1899AF5A2C57FEEF00B18CF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1899AF5C2C57FEF000B18CF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1899AF5F2C57FEF000B18CF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1899AF662C57FF6100B18CF5 /* Framwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framwork.swift; sourceTree = "<group>"; };
+		1899AF682C58027000B18CF5 /* FramworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramworkGridView.swift; sourceTree = "<group>"; };
+		1899AF6A2C58106700B18CF5 /* FramworkDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramworkDetailsView.swift; sourceTree = "<group>"; };
+		1899AF6C2C581D8C00B18CF5 /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
+		1899AF6E2C5822A300B18CF5 /* FramworkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramworkViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +44,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1831B2C82C5972A600683342 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1899AF662C57FF6100B18CF5 /* Framwork.swift */,
+				1899AF6E2C5822A300B18CF5 /* FramworkViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1831B2C92C5972E400683342 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1831B2CA2C5972FE00683342 /* FramworksGridView */,
+				1831B2CD2C59740900683342 /* FramworkDetailsView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1831B2CA2C5972FE00683342 /* FramworksGridView */ = {
+			isa = PBXGroup;
+			children = (
+				1899AF682C58027000B18CF5 /* FramworkGridView.swift */,
+			);
+			path = FramworksGridView;
+			sourceTree = "<group>";
+		};
+		1831B2CB2C5973C200683342 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1831B2CC2C5973E500683342 /* Buttons */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1831B2CC2C5973E500683342 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				1831B2C52C596FF300683342 /* XmarkButton.swift */,
+				1899AF6C2C581D8C00B18CF5 /* AFButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		1831B2CD2C59740900683342 /* FramworkDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				1899AF6A2C58106700B18CF5 /* FramworkDetailsView.swift */,
+			);
+			path = FramworkDetailsView;
+			sourceTree = "<group>";
+		};
+		1831B2CE2C59745B00683342 /* UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				1831B2C32C59685D00683342 /* SafariView.swift */,
+			);
+			path = "UI Components";
+			sourceTree = "<group>";
+		};
 		1899AF4C2C57FEEF00B18CF5 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +122,11 @@
 		1899AF572C57FEEF00B18CF5 /* Apple-Framwork */ = {
 			isa = PBXGroup;
 			children = (
+				1831B2CE2C59745B00683342 /* UI Components */,
+				1831B2CB2C5973C200683342 /* Views */,
+				1831B2C92C5972E400683342 /* Screens */,
+				1831B2C82C5972A600683342 /* Model */,
 				1899AF582C57FEEF00B18CF5 /* Apple_FramworkApp.swift */,
-				1899AF5A2C57FEEF00B18CF5 /* ContentView.swift */,
 				1899AF5C2C57FEF000B18CF5 /* Assets.xcassets */,
 				1899AF5E2C57FEF000B18CF5 /* Preview Content */,
 			);
@@ -137,8 +211,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1899AF5B2C57FEEF00B18CF5 /* ContentView.swift in Sources */,
+				1899AF692C58027000B18CF5 /* FramworkGridView.swift in Sources */,
+				1899AF6F2C5822A300B18CF5 /* FramworkViewModel.swift in Sources */,
+				1899AF672C57FF6100B18CF5 /* Framwork.swift in Sources */,
+				1831B2C62C596FF300683342 /* XmarkButton.swift in Sources */,
+				1899AF6B2C58106700B18CF5 /* FramworkDetailsView.swift in Sources */,
+				1899AF6D2C581D8C00B18CF5 /* AFButton.swift in Sources */,
 				1899AF592C57FEEF00B18CF5 /* Apple_FramworkApp.swift in Sources */,
+				1831B2C42C59685D00683342 /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +360,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +390,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
